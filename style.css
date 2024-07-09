@@ -1,0 +1,18 @@
+.navcolor, html, textarea{
+    background: var(--Light-blue-light-blue-100, #F3F5FC);
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.texto{
+    padding-left: 240px;
+    padding-top: 80px;
+}
+
+textarea::placeholder{
+    font-size: 25px;
+}
